@@ -4,6 +4,7 @@ import Link from "next/link";
 import CaravanAnimation from "~/components/CaravanAnimation";
 import Logo from "~/components/Logo";
 import textLogoSrc from "../../public/images/logo-text.svg";
+import bannerSrc from "../../public/images/banner.jpg";
 import Image, { type StaticImageData } from "next/image";
 
 const Home: NextPage = () => {
@@ -49,7 +50,22 @@ const Home: NextPage = () => {
               </div>
             </div>
 
-            <div>Registrate en EventBrite</div>
+            <div className="text-2xl">
+              ⬇️⬇️ Registrate GRATIS en EventBrite ⬇️⬇️
+            </div>
+            <div>
+              <Link
+                href="https://www.eventbrite.com.ar/e/se-parte-de-la-humana-mas-grande-del-mundo-tickets-617298645867"
+                target="_blank"
+              >
+                <Image
+                  src={bannerSrc}
+                  alt="La Crypta Logo"
+                  width={400}
+                  height={400}
+                />
+              </Link>
+            </div>
           </div>
         </div>
         <div className="flex w-full flex-col items-center justify-center bg-gray-200 p-9">
