@@ -25,7 +25,7 @@ const Home: NextPage = () => {
 
           <div className="flex flex-col items-center justify-center space-y-6">
             <div className="text-4xl">
-              Este <b>Sábado 10 de Julio, 14hs</b>
+              Este <b>Sábado 10 de Junio, 14hs</b>
             </div>
 
             <Countdown />
