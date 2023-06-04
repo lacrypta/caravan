@@ -6,6 +6,7 @@ import Logo from "~/components/Logo";
 import textLogoSrc from "../../public/images/logo-text.svg";
 import bannerSrc from "../../public/images/banner.jpg";
 import Image, { type StaticImageData } from "next/image";
+import Countdown from "~/components/Countdown";
 
 const Home: NextPage = () => {
   return (
@@ -26,6 +27,8 @@ const Home: NextPage = () => {
             <div className="text-4xl">
               Este <b>Sábado 10 de Julio, 14hs</b>
             </div>
+
+            <Countdown />
 
             <Link href="https://goo.gl/maps/ugNAWT34A7wDimMa7" target="_blank">
               <CaravanAnimation />
