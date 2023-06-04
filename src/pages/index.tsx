@@ -37,11 +37,13 @@ const Home: NextPage = () => {
             <div className="flex flex-col text-3xl">
               <div>
                 <span>salimos desde </span>
-                <Image
-                  src={textLogoSrc as StaticImageData}
-                  className="ml-2 inline-block text-4xl"
-                  alt="La Crypta Logo"
-                />
+                <Link href="https://links.lacrypta.ar" target="_blank">
+                  <Image
+                    src={textLogoSrc as StaticImageData}
+                    className="ml-2 inline-block text-4xl"
+                    alt="La Crypta Logo"
+                  />
+                </Link>
               </div>
               <div className="text-2xl">
                 <Link
@@ -73,7 +75,9 @@ const Home: NextPage = () => {
         </div>
         <div className="flex w-full flex-col items-center justify-center bg-gray-200 p-9">
           <div>Organizado por </div>
-          <Logo width={200} height={200} />
+          <Link href="https://links.lacrypta.ar" target="_blank">
+            <Logo width={200} height={200} />
+          </Link>
         </div>
       </main>
     </>
