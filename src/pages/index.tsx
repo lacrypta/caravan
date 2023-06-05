@@ -69,6 +69,13 @@ const Home: NextPage = () => {
               <div>- Reclutando gente</div>
             </div>
 
+            <div className="w-full text-left text-2xl">
+              <div className="text-4xl">Llegamos al Campo de Polo</div>
+              <div>- Creamos la B Gigante</div>
+              <div>- Recibis Bolsa con merch</div>
+              <div>- Formas parte de Record Guinesss</div>
+            </div>
+
             <div className="text-2xl">
               ⬇️⬇️ Registrate GRATIS en EventBrite ⬇️⬇️
             </div>
