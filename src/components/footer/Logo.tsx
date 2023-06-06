@@ -1,5 +1,5 @@
 import Image, { type StaticImageData } from "next/image";
-import logoSrc from "../../public/images/logo.svg";
+import logoSrc from "../../../public/images/logo.svg";
 
 interface LogoProps {
   width: number;

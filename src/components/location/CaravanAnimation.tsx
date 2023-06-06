@@ -1,6 +1,6 @@
 import Image from "next/image";
-import caravanSrc from "../../public/images/caravan.gif";
-import { useEffect, useState } from "react";
+import caravanSrc from "../../../public/images/caravan.gif";
+import { useState } from "react";
 
 export const CaravanAnimation = () => {
   const [loaded, setLoaded] = useState(false);
