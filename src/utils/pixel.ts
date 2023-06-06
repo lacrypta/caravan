@@ -1,19 +1,17 @@
+/* eslint-disable @typescript-eslint/no-explicit-any, @typescript-eslint/no-unsafe-call */
 declare global {
   interface Window {
     fbq: any;
   }
 }
 
-export const pageview = () => {
-  window.fbq("track", "PageView");
+const pixel = {
+  pageview: () => {
+    window.fbq("track", "PageView");
+  },
+  event: (name: string, options = {}) => {
+    window.fbq("track", name, options);
+  },
 };
 
-// https://developers.facebook.com/docs/facebook-pixel/advanced/
-export const event = (name: string, options = {}) => {
-  window.fbq("track", name, options);
-};
-
-export default {
-  pageview,
-  event,
-};
+export default pixel;
