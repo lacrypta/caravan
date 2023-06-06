@@ -16,6 +16,10 @@ const Home: NextPage = () => {
       <Head>
         <title>Caravana Lightning - La Crypta</title>
         <meta name="description" content="Desarrollado por La Crypta" />
+        <meta
+          name="facebook-domain-verification"
+          content="rqzhaxm4c76o8eja0seova4eqlq9ki"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex min-h-screen flex-col items-center justify-center bg-black bg-bitcoin text-center text-white">
