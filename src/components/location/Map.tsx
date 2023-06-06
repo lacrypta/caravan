@@ -6,7 +6,13 @@ import Image, { type StaticImageData } from "next/image";
 
 export const Map = () => {
   return (
-    <motion.div className="flex flex-col text-3xl">
+    <motion.div
+      className="flex flex-col text-3xl"
+      variants={{
+        hidden: { opacity: 0 },
+        show: { opacity: 1 },
+      }}
+    >
       <Link href="https://goo.gl/maps/ugNAWT34A7wDimMa7" target="_blank">
         <CaravanAnimation />
       </Link>

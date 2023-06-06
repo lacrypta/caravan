@@ -1,14 +1,24 @@
 import Image from "next/image";
 import Link from "next/link";
 import bannerSrc from "../../../public/images/banner.png";
+import { motion } from "framer-motion";
 
 export const Banner = () => {
   return (
     <>
-      <div className="text-2xl">
+      <motion.div
+        className="text-2xl"
+        initial={{ y: "100%", opacity: 0 }}
+        whileInView={{ y: "0", opacity: 1 }}
+        transition={{ duration: 0.7 }}
+      >
         <h1>⬇️ Reservá GRATIS en EventBrite ⬇️</h1>
-      </div>
-      <div>
+      </motion.div>
+      <motion.div
+        initial={{ y: "100%", opacity: 0 }}
+        whileInView={{ y: "0", opacity: 1 }}
+        transition={{ duration: 0.7 }}
+      >
         <Link
           href="https://www.eventbrite.com.ar/e/caravana-bitcoiner-hacia-la-b-gigante-la-crypta-tickets-651072845407"
           target="_blank"
@@ -20,10 +30,15 @@ export const Banner = () => {
             height={400}
           />
         </Link>
-      </div>
-      <div className="text-2xl">
+      </motion.div>
+      <motion.div
+        className="text-2xl"
+        initial={{ y: "100%", opacity: 0 }}
+        whileInView={{ y: "0", opacity: 1 }}
+        transition={{ duration: 0.7 }}
+      >
         <h1>⬆️ Hacé click el banner ⬆️</h1>
-      </div>
+      </motion.div>
     </>
   );
 };
