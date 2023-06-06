@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Blatant";
+  src: url("/fonts/Blatant.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Blatant";
+  src: url("/fonts/Blatant-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Standerd";
+  src: url("/fonts/Standerd-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
