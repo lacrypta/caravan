@@ -5,7 +5,7 @@ export const Steps = () => {
     <motion.div className="flex flex-col space-y-10">
       <motion.div
         className="w-full text-left text-2xl"
-        initial={{ y: "100%", opacity: 0 }}
+        initial={{ y: "50%", opacity: 0 }}
         whileInView={{ y: "0", opacity: 1 }}
         transition={{ duration: 0.7 }}
       >
@@ -18,7 +18,7 @@ export const Steps = () => {
 
       <motion.div
         className="w-full text-left text-2xl"
-        initial={{ y: "100%", opacity: 0 }}
+        initial={{ y: "50%", opacity: 0 }}
         whileInView={{ y: "0", opacity: 1 }}
         transition={{ duration: 0.7 }}
       >
@@ -30,7 +30,7 @@ export const Steps = () => {
 
       <motion.div
         className="w-full text-left text-2xl"
-        initial={{ y: "100%", opacity: 0 }}
+        initial={{ y: "50%", opacity: 0 }}
         whileInView={{ y: "0", opacity: 1 }}
         transition={{ duration: 0.7 }}
       >
