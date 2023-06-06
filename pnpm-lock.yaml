@@ -19,6 +19,9 @@ dependencies:
   react-dom:
     specifier: 18.2.0
     version: 18.2.0(react@18.2.0)
+  react-gtm-module:
+    specifier: ^2.0.11
+    version: 2.0.11
   zod:
     specifier: ^3.21.4
     version: 3.21.4
@@ -39,6 +42,9 @@ devDependencies:
   '@types/react-dom':
     specifier: ^18.2.4
     version: 18.2.4
+  '@types/react-gtm-module':
+    specifier: ^2.0.1
+    version: 2.0.1
   '@typescript-eslint/eslint-plugin':
     specifier: ^5.59.6
     version: 5.59.6(@typescript-eslint/parser@5.59.6)(eslint@8.40.0)(typescript@5.0.4)
@@ -373,6 +379,10 @@ packages:
     resolution: {integrity: sha512-G2mHoTMTL4yoydITgOGwWdWMVd8sNgyEP85xVmMKAPUBwQWm9wBPQUmvbeF4V3WBY1P7mmL4BkjQ0SqUpf1snw==}
     dependencies:
       '@types/react': 18.2.6
+    dev: true
+
+  /@types/react-gtm-module@2.0.1:
+    resolution: {integrity: sha512-T/DN9gAbCYk5wJ1nxf4pSwmXz4d1iVjM++OoG+mwMfz9STMAotGjSb65gJHOS5bPvl6vLSsJnuC+y/43OQrltg==}
     dev: true
 
   /@types/react@18.2.6:
@@ -2479,6 +2489,10 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
+    dev: false
+
+  /react-gtm-module@2.0.11:
+    resolution: {integrity: sha512-8gyj4TTxeP7eEyc2QKawEuQoAZdjKvMY4pgWfycGmqGByhs17fR+zEBs0JUDq4US/l+vbTl+6zvUIx27iDo/Vw==}
     dev: false
 
   /react-is@16.13.1:
