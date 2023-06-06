@@ -3,9 +3,10 @@
 @tailwind utilities;
 
 @layer base {
-  html {
+  html,
+  body {
     font-family: Standerd, system-ui, sans-serif;
-    width: 100hv;
+    width: 100vw;
     overflow-x: hidden;
   }
 
