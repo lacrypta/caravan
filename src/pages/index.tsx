@@ -3,7 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import CaravanAnimation from "~/components/CaravanAnimation";
 import textLogoSrc from "../../public/images/logo-text.svg";
-import bannerSrc from "../../public/images/banner.jpg";
+import bannerSrc from "../../public/images/banner.png";
 import Image, { type StaticImageData } from "next/image";
 import Countdown from "~/components/Countdown";
 import Footer from "~/components/Footer";
@@ -56,32 +56,32 @@ const Home: NextPage = () => {
             </div>
 
             <div className="w-full text-left text-2xl">
-              <div className="text-4xl">Regalamos</div>
+              <h1 className="text-4xl">Regalamos</h1>
               <div>- 50 paraguas naranjas</div>
               <div>- 100 remeras custom para el evento</div>
               <div>- sorpresas</div>
             </div>
 
             <div className="w-full text-left text-2xl">
-              <div className="text-4xl">Vamos caminando en caravana</div>
+              <h1 className="text-4xl">Vamos caminando en caravana</h1>
               <div>- 20 minutos</div>
               <div>- Música al palo</div>
               <div>- Reclutando gente</div>
             </div>
 
             <div className="w-full text-left text-2xl">
-              <div className="text-4xl">Llegamos al Campo de Polo</div>
+              <h1 className="text-4xl">Llegamos al Campo de Polo</h1>
               <div>- Creamos la B Gigante</div>
               <div>- Recibis Bolsa con merch</div>
               <div>- Formas parte de Record Guinesss</div>
             </div>
 
             <div className="text-2xl">
-              ⬇️⬇️ Registrate GRATIS en EventBrite ⬇️⬇️
+              <h1>⬇️ Registrate GRATIS en EventBrite ⬇️</h1>
             </div>
             <div>
               <Link
-                href="https://www.eventbrite.com.ar/e/se-parte-de-la-humana-mas-grande-del-mundo-tickets-617298645867"
+                href="https://www.eventbrite.com.ar/e/caravana-bitcoiner-hacia-la-b-gigante-la-crypta-tickets-651072845407"
                 target="_blank"
               >
                 <Image
