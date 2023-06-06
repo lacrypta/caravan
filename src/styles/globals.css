@@ -5,6 +5,8 @@
 @layer base {
   html {
     font-family: Standerd, system-ui, sans-serif;
+    width: 100hv;
+    overflow-x: hidden;
   }
 
   h1,
