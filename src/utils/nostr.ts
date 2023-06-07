@@ -1,7 +1,7 @@
 import {
-  Event,
+  type Event,
   SimplePool,
-  UnsignedEvent,
+  type UnsignedEvent,
   getEventHash,
   getPublicKey,
   getSignature,
@@ -42,12 +42,12 @@ export const isAwarded = async (
   return !!event;
 };
 
-export const createAward = async (
+export const createAward = (
   privkey: string,
   relayList: string[],
   destination: string,
   dTag: string
-): Promise<Event> => {
+): Event => {
   const pool = new SimplePool();
   const pubkey = getPublicKey(privkey);
 

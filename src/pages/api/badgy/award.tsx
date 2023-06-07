@@ -1,5 +1,5 @@
 import { nip05 } from "nostr-tools";
-import { NextApiRequest, NextApiResponse } from "next";
+import type { NextApiRequest, NextApiResponse } from "next";
 import { validateEmail } from "~/utils/utils";
 
 // Constants
@@ -7,9 +7,8 @@ import relayList from "../../../constants/relays.json";
 import { getAwards } from "~/utils/nostr";
 
 // Environment variables
-const EMITTER_PUBLIC = process.env.EMITTER_PUBLIC || "";
-const EMITTER_PRIVATE = process.env.EMITTER_PRIVATE || "";
-const BADGE_D_TAG = process.env.BADGE_D_TAG || "";
+// const EMITTER_PRIVATE = process.env.EMITTER_PRIVATE || "";
+// const BADGE_D_TAG = process.env.BADGE_D_TAG || "";
 
 export default async function handler(
   req: NextApiRequest,
