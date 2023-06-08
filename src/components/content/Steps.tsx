@@ -34,9 +34,14 @@ export const Steps = () => {
         whileInView={{ y: "0", opacity: 1 }}
         transition={{ duration: 0.7 }}
       >
-        <h1 className="text-4xl">Llegamos al Campo de Polo</h1>
-        <div>- Creamos la B Gigante</div>
+        <h1 className="text-4xl">
+          Llegamos al Evento de{" "}
+          <a href="https://bitcoinargentina.org/" target="_blank">
+            ONG Bitcoin Argentina
+          </a>
+        </h1>
         <div>- Recibis Bolsa con merch</div>
+        <div>- Creamos la B Gigante</div>
         <div>- Formas parte de Record Guinesss</div>
       </motion.div>
     </motion.div>
