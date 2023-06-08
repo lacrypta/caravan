@@ -42,7 +42,7 @@ export const Steps = () => {
         </h1>
         <div>- Recibis Bolsa con merch</div>
         <div>- Creamos la B Gigante</div>
-        <div>- Formas parte de Record Guinesss</div>
+        <div>- Generar un Record Mundial</div>
       </motion.div>
     </motion.div>
   );
