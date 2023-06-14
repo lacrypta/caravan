@@ -1,4 +1,4 @@
-# Caravana from La Crypta to BGigante
+# Caravana from La Crypta to BGigante Terminada
 
 This is Repo represents the portfolio for the caravan from La Crypta to B Gigante
 
