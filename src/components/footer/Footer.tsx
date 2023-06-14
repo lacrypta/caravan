@@ -9,10 +9,6 @@ export const Footer = () => {
       <Link href="https://links.lacrypta.ar" target="_blank">
         <Logo width={150} height={150} />
       </Link>
-
-      <Link href="https://https://bitcoinargentina.org/" target="_blank">
-        <Image src={logoONG} alt="Logo Bitcoin Argentina ONG" width={100} />
-      </Link>
     </div>
   );
 };

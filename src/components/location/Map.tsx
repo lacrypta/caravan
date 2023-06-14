@@ -27,11 +27,6 @@ export const Map = () => {
           />
         </Link>
       </div>
-      <div className="text-2xl">
-        <Link href="https://goo.gl/maps/A3VLNRWWWt7EfKcQ6" target="_blank">
-          (Villanueva 1367, CABA)
-        </Link>
-      </div>
     </motion.div>
   );
 };

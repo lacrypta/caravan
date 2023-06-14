@@ -25,7 +25,7 @@ export const Title = () => {
         }}
         transition={{ duration: 0.4 }}
       >
-        sumate a
+        lanzada
       </motion.h2>
       <motion.h1
         className="flex flex-col items-center  justify-center space-x-6 text-6xl md:flex-row md:text-[4rem] lg:text-[5rem]"

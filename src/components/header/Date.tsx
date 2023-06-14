@@ -9,7 +9,7 @@ export const Date = () => {
       }}
       className="my-5 text-4xl"
     >
-      Este <b>Sabado 10 de Junio, 14hs</b>
+      <b>Sabado 10 de Junio de 2023</b>
     </motion.div>
   );
 };

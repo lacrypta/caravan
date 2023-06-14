@@ -12,7 +12,7 @@ export const Banner = () => {
         whileInView={{ y: "0", opacity: 1 }}
         transition={{ duration: 0.7 }}
       >
-        <h1>⬇️ Reservá GRATIS en EventBrite ⬇️</h1>
+        <h1>⬇️ Info de EventBrite ⬇️</h1>
       </motion.div>
       <motion.div
         initial={{ y: "20%", opacity: 0 }}
@@ -30,14 +30,6 @@ export const Banner = () => {
             height={400}
           />
         </Link>
-      </motion.div>
-      <motion.div
-        className="text-2xl"
-        initial={{ y: "100%", opacity: 0 }}
-        whileInView={{ y: "0", opacity: 1 }}
-        transition={{ duration: 0.7 }}
-      >
-        <h1>⬆️ Hacé click el banner ⬆️</h1>
       </motion.div>
     </>
   );

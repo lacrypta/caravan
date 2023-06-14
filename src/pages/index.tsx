@@ -58,7 +58,6 @@ const Home: NextPage = () => {
           </Header>
 
           <Content>
-            <Countdown />
             <Map />
             <Steps />
             <Banner />
